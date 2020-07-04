@@ -1,0 +1,13 @@
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\bin\Debug\netcoreapp3.1\roshambo.exe
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\bin\Debug\netcoreapp3.1\roshambo.deps.json
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\bin\Debug\netcoreapp3.1\roshambo.runtimeconfig.json
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\bin\Debug\netcoreapp3.1\roshambo.runtimeconfig.dev.json
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\bin\Debug\netcoreapp3.1\roshambo.dll
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\bin\Debug\netcoreapp3.1\roshambo.pdb
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\obj\Debug\netcoreapp3.1\roshambo.csprojAssemblyReference.cache
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\obj\Debug\netcoreapp3.1\roshambo.AssemblyInfoInputs.cache
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\obj\Debug\netcoreapp3.1\roshambo.AssemblyInfo.cs
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\obj\Debug\netcoreapp3.1\roshambo.csproj.CoreCompileInputs.cache
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\obj\Debug\netcoreapp3.1\roshambo.dll
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\obj\Debug\netcoreapp3.1\roshambo.pdb
+C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\obj\Debug\netcoreapp3.1\roshambo.genruntimeconfig.cache
