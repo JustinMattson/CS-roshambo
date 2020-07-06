@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace roshambo
 {
@@ -19,34 +20,71 @@ namespace roshambo
         switch (rand)
         {
           case 1:
-            NPC = "rock";
+            NPC = "Rock";
             break;
           case 2:
-            NPC = "paper";
+            NPC = "Paper";
             break;
           case 3:
-            NPC = "scissors";
+            NPC = "Scissors";
             break;
         }
+        Console.ForegroundColor = ConsoleColor.DarkGray;
         Console.WriteLine(NPC);
-        Console.WriteLine("Rock, Paper, Scissors ... GO!");
-        string guess = Console.ReadLine().ToLower();
-        if (guess == NPC)
+        Console.ForegroundColor = ConsoleColor.White;
+        string playGame = "Rock, Paper, Scissors ... GO!";
+        for (int i = 0; i < playGame.Length; i++)
         {
-          Console.WriteLine("Tie Game!");
+          Console.Write(playGame[i]);
+          Thread.Sleep(15);
+        }
+        System.Console.WriteLine("");
+        string guess = Console.ReadLine();
+        if (guess.ToLower() == NPC.ToLower())
+        {
+          Console.ForegroundColor = ConsoleColor.Blue;
+          Console.WriteLine("\nTie Game!");
+          Console.ForegroundColor = ConsoleColor.White;
           draw++;
         }
-        else if ((guess == "rock" && NPC == "scissors") || (guess == "paper" && NPC == "rock") || (guess == "scissors" && NPC == "paper"))
+        else if (
+          (guess.ToLower() == "rock" && NPC.ToLower() == "scissors") ||
+          (guess.ToLower() == "paper" && NPC.ToLower() == "rock") ||
+          (guess.ToLower() == "scissors" && NPC.ToLower() == "paper"))
         {
-          Console.WriteLine("You Win!");
+          Console.ForegroundColor = ConsoleColor.Green;
+          Console.WriteLine("\nYou Win!");
+          Console.ForegroundColor = ConsoleColor.White;
           win++;
         }
         else
         {
+          Console.ForegroundColor = ConsoleColor.Red;
+          if (NPC == "Scissors")
+          {
+            Console.WriteLine($"\n{NPC} beat {Thread.CurrentThread.CurrentCulture.TextInfo.ToTitleCase(guess)}");
+          }
+          else
+          {
+            Console.WriteLine($"\n{NPC} beats {Thread.CurrentThread.CurrentCulture.TextInfo.ToTitleCase(guess)}");
+          }
           Console.WriteLine("You Lose.");
+          Console.ForegroundColor = ConsoleColor.White;
           lose++;
         }
-        Console.WriteLine($"Win ({win}) | Lose ({lose}) | Draw ({draw})");
+        Console.Write($"\nWin (");
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.Write(win);
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.Write(") | Lose (");
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.Write(lose);
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.Write(") | Draw (");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.Write(draw);
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.Write(")");
         Console.WriteLine("\nPlay Again? [Y/N]");
         answer = Console.ReadLine().ToUpper();
       }
