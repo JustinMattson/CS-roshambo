@@ -11,3 +11,16 @@ C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\obj\Debug\netcoreapp3.1\r
 C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\obj\Debug\netcoreapp3.1\roshambo.dll
 C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\obj\Debug\netcoreapp3.1\roshambo.pdb
 C:\Users\toyvo\source\codeworks\summer2020\c#\roshambo\obj\Debug\netcoreapp3.1\roshambo.genruntimeconfig.cache
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\bin\Debug\netcoreapp3.1\roshambo.exe
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\bin\Debug\netcoreapp3.1\roshambo.deps.json
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\bin\Debug\netcoreapp3.1\roshambo.runtimeconfig.json
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\bin\Debug\netcoreapp3.1\roshambo.runtimeconfig.dev.json
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\bin\Debug\netcoreapp3.1\roshambo.dll
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\bin\Debug\netcoreapp3.1\roshambo.pdb
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\obj\Debug\netcoreapp3.1\roshambo.csprojAssemblyReference.cache
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\obj\Debug\netcoreapp3.1\roshambo.AssemblyInfoInputs.cache
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\obj\Debug\netcoreapp3.1\roshambo.AssemblyInfo.cs
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\obj\Debug\netcoreapp3.1\roshambo.csproj.CoreCompileInputs.cache
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\obj\Debug\netcoreapp3.1\roshambo.dll
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\obj\Debug\netcoreapp3.1\roshambo.pdb
+D:\source\Codeworks\summer2020\w10d1\CS-roshambo\obj\Debug\netcoreapp3.1\roshambo.genruntimeconfig.cache
